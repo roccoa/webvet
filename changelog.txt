@@ -1,0 +1,6 @@
+changelog
+
+//////Version 0.1a//////
+
+-created index.php header, main menu, client/patient search interface
+-created client.php with client information form, writes to CSV file

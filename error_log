@@ -1,0 +1,9 @@
+[21-May-2013 10:50:01] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exrealit/public_html/webvet/client.php:7) in /home/exrealit/public_html/webvet/client.php on line 63
+[21-May-2013 10:50:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exrealit/public_html/webvet/client.php:7) in /home/exrealit/public_html/webvet/client.php on line 63
+[21-May-2013 10:53:44] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/exrealit/public_html/webvet/client.php on line 45
+[21-May-2013 10:55:28] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exrealit/public_html/webvet/client.php:7) in /home/exrealit/public_html/webvet/client.php on line 44
+[21-May-2013 10:57:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exrealit/public_html/webvet/client.php:18) in /home/exrealit/public_html/webvet/client.php on line 40
+[21-May-2013 10:57:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exrealit/public_html/webvet/client.php:18) in /home/exrealit/public_html/webvet/client.php on line 40
+[21-May-2013 10:57:19] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exrealit/public_html/webvet/client.php:18) in /home/exrealit/public_html/webvet/client.php on line 40
+[21-May-2013 10:57:20] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/exrealit/public_html/webvet/client.php:18) in /home/exrealit/public_html/webvet/client.php on line 40
+[21-May-2013 11:12:49] PHP Parse error:  syntax error, unexpected $end in /home/exrealit/public_html/webvet/client.php on line 73
