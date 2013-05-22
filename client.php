@@ -28,23 +28,6 @@ if($_POST['formSubmit'] == "Submit")
 		$errorMessage .= "<li>You forgot to enter the client's zip code!</li>";
 	}
 	
-	$varLastname = $_POST['lastname'];
-	$varFirstname = $_POST['firstname'];
-	$varAddress1 = $_POST['address1'];
-	$varAddress2 = $_POST['address2'];
-	$varCity = $_POST['city'];
-	$varState = $_POST['state'];
-	$varZipcode = $_POST['zipcode'];
-
-	if(empty($errorMessage)) 
-	{
-		$fs = fopen("clientdata.csv","a");
-		fwrite($fs,$varLastname . ", " . $varFirstname . "," . $varAddress1 . "," . $varAddress2 . "," . $varCity . "," . $varState . "," . $varZipcode . "\n");
-		fclose($fs);
-		
-		header("Location: clientupdated.html");
-		exit;
-	}
 }
 ?>
 
@@ -53,17 +36,7 @@ if($_POST['formSubmit'] == "Submit")
 		<title>WebVet - Client Management</title>
 	</head>
 	<body>
-<h2>WebVet - Client Management</h2>
 
-<hr>
-Client/Patient Search
-
-<form action="lookup.php" method="post">
- <p>Client ID:<input type="text" name="clientid" /> Last Name:<input type="text" name="lastname" /> Patient:<input type="text" name="patientname" /></p>
- <p><input type="submit" /></p>
-</form>
-
-<hr>
 
 <?php
 		if(!empty($errorMessage)) 
@@ -73,7 +46,7 @@ Client/Patient Search
 		} 
 	?>
 
-<form action="client.php" method="post">
+<form action="client_ac.php" method="post">
  
 Last Name: <input type="text" name="lastname" maxlength="50"><BR>
  
@@ -88,11 +61,6 @@ City: <input type="text" name="city" maxlength="50"> State: <input type="text" n
 <BR><BR><input type="submit" name="formSubmit" value="Submit">
  
 </form>
-
-
-<br><br>
-<center><font size="2">WebVet Version 0.1a<BR>
-Support | Documentation</font></center>
 
 	</body>
 </html>
