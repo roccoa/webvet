@@ -2,7 +2,7 @@
 
 $host="localhost"; // Host name
 $username="exrealit_webvet"; // Mysql username
-$password="5literford"; // Mysql password
+$password="****"; // Mysql password
 $db_name="exrealit_clientsql"; // Database name
 $tbl_name="client_list"; // Table name
 
